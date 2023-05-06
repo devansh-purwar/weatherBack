@@ -17,8 +17,13 @@ python -m venv myenv
 ```python
 pip install -r requirements.txt
 ```
+#### Step 3 - Create a dotenv file in a weather_project directory with
 
-#### Step 3 - Run Server
+##### /weather_project/.env
+```python
+API_KEY = 'Your-Open-Weather-API-Key'
+```
+#### Step 4 - Run Server
 
 ```python
 python manage.py runserver 0.0.0.0:8000
